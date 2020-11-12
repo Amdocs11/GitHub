@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 7, Time elapsed: 2.78 s <<< FAILURE! - in TestSuite
+Framework.TestCases.openBrowser  Time elapsed: 1.998 s  <<< FAILURE!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at Framework.TestCases.openBrowser(TestCases.java:35)
+
+Framework.TestCourse.openBrowser  Time elapsed: 2.011 s  <<< FAILURE!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at Framework.TestCourse.openBrowser(TestCourse.java:22)
+
